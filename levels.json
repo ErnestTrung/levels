@@ -1,0 +1,35 @@
+{
+    "version" : 1,
+    "levels" : [
+  {
+    "id": "first-steps",
+    "boardSize": 4,
+    "target": 32,
+    "board": [4, 4, 2, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "double-row",
+    "boardSize": 4,
+    "target": 64,
+    "board": [8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  {
+    "id": "packed-eights",
+    "boardSize": 4,
+    "target": 128,
+    "board": [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+  },
+  {
+    "id": "sixteen-stack",
+    "boardSize": 4,
+    "target": 256,
+    "board": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+  },
+  {
+    "id": "final-combine",
+    "boardSize": 4,
+    "target": 512,
+    "board": [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+  }
+]
+}
